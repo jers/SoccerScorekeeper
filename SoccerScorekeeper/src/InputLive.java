@@ -47,7 +47,7 @@ class InputLive {
 
 	public void getInfractionInfo() {
 		getGeneralInfo();
-		getInfractionInfo();
+		isRed = LiveUI.getisRed();
 
 	}
 
