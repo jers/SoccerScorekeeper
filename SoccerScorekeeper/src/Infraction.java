@@ -1,3 +1,4 @@
-public class Infraction	{
+public class Infraction	
+{
 	
 }
