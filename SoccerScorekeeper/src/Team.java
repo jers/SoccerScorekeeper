@@ -1,6 +1,9 @@
 public class Team	{
 
-	ArrayList<Player> playerList = new ArrayList<Player>();
+	private ArrayList<Player> playerList = new ArrayList<Player>();
+	private int nPlayers;
+	private Points; 
+	private nInfractions;
 
 	public Team () {
 
@@ -8,8 +11,8 @@ public class Team	{
 	}	
 
 
-	public addPlayer() {
-
+	public addPlayer(Player nPlayer) {
+		playerList.add(nPlayer);
 
 	}
 
