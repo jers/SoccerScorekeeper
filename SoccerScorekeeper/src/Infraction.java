@@ -1,14 +1,18 @@
-public class Infraction	{
-	public enum Card	{
+public class Infraction	
+{
+	public enum Card	
+	{
 		RED,YELLOW
 	}
 	private Card card;
 
-	public Card getInfractionType(Infraction)	{
+	public Card getInfractionType(Infraction Infraction)	
+	{
 		return card;
 	}
 
-	public void Infraction(Card nCard)	{
+	public void infraction(Card nCard)	
+	{
 		card = nCard;
 	}
 }
