@@ -15,7 +15,7 @@ public class Player
 
 	public void addShot(Shot nShot) {
 		shotList.add(nShot);
-		if (nShot.getType() == GOAL); 
+		if (nShot.shotScored() == true); 
 			goals++;
 
 	}
