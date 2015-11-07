@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Player	
 {
 	private String name;
@@ -7,7 +9,8 @@ public class Player
 	ArrayList<Shot> shotList = new ArrayList<Shot>();
 	ArrayList<Infraction> infractionList= new ArrayList<Infraction>();
 
-	public void Player(String nName, int nGoals, int nInfractions) {
+	public void Player(String nName, int nGoals, int nInfractions) 
+	{
 		name = nName;
 		goals = nGoals;
 		numInfractions = nInfractions; 
