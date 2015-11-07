@@ -1,8 +1,7 @@
 import java.util.*;
 
-	public Team () 
-	{
-
+public Team () 
+{
 	private ArrayList<Player> playerList;
 	private String name;
 	private int points;
