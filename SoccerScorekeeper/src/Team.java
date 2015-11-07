@@ -1,6 +1,6 @@
 import java.util.*;
 
-public Team () 
+public class Team 
 {
 	private ArrayList<Player> playerList;
 	private String name;
@@ -16,8 +16,6 @@ public Team ()
 	public void addPlayer(Player p)
 	{
 		this.playerList.add(p);
-		public addPlayer(Player nPlayer) {
-		playerList.add(nPlayer);
 	}
 
 	public void removePlayer(Player p)
