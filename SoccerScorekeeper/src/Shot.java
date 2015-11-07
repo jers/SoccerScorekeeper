@@ -1,15 +1,15 @@
-import java.util.Date
+import java.util.*;
 
 public class Shot	{
 	private boolean isGoal;
-	private Time time;
+	private Date time;
 
-	public boolean shotScored(shot)	{
+	public boolean shotScored(Shot shot)	{
 		return isGoal;
 	}
 
-	public addshot(boolean scored)	{
-		time = (new Date).getTime()
+	public void addshot(boolean scored)	{
+		time = new Date();
 		isGoal = scored;
 	}
 }
