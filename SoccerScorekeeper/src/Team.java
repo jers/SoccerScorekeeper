@@ -43,7 +43,7 @@ public class Team
 		return this.name;
 	}
 	
-	public ArrayList<Player> getPlayer()
+	public ArrayList<Player> getPlayerList()
 	{
 		return this.playerList;
 	}
